@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: #BE3144;
+}
+.navbar .navbar-nav a{
+    font-size: 20px;
+}
+.navbar .navbar-nav a:hover{
+    background-color: black;
+}
