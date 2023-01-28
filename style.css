@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    color: #fff !important;
 }
 .navbar{
     background-color: #BE3144;
@@ -10,4 +11,45 @@
 }
 .navbar .navbar-nav a:hover{
     background-color: black;
+}
+#web{
+    background-color: #313336;
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+#web h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+#web p{
+    color: #BE3144 !important;
+    font-size: 30px;
+}
+#project{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #45567D;
+}
+.line{
+    background-color: #fff;
+    padding: 1px;
+    width: 60%;
+    text-align: center;
+}
+@media (max-width:767px){
+    .line{
+        width: 95%;
+    }
+}
+
+
+
+#work{
+    background-color: #303841;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+footer{
+    background-color: #303841;
+    padding: 50px;
 }
