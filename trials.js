@@ -1,3 +1,5 @@
+// For Albert
+
 function minimumDistances(a) {
     // Write your code here
     
@@ -15,4 +17,20 @@ if (min == a.length) {
     return -1;
 }
 return min;
+}
+
+
+// For Abraham
+
+function designerPdfViewer(h, word) {
+    // Write your code here
+    
+    let alphabets = "abcdefghijklmnopqrstuvwxyz";
+    let alphabetsHeight = [];
+    
+    for(let i =0; i < word.length; i++){
+        alphabetsHeight.push(h[alphabets.indexOf(word[i])]);
+    }
+    let tallest = alphabetsHeight.sort()[alphabetsHeight.length-1];
+    return tallest * word.length;
 }
