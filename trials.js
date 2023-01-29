@@ -1,7 +1,7 @@
 // For Albert
 
 function minimumDistances(a) {
-    // Write your code here
+    // Write your code here 
     
     let min = a.length;
     for(let i = 0; i < a.length; i++) {
